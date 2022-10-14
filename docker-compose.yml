@@ -2,7 +2,8 @@ version: '3.1'
 
 services:
   backend:
-    image: jerbob92/hoppscotch-backend:latest
+    image: hoppscotch-backend
+    build: Dockerfile
     restart: always
     ports:
       - "8989:8989"
